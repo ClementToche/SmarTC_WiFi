@@ -1,0 +1,32 @@
+{
+    "name": "SmarTC_WiFi",
+    "version": "1.0.0",
+    "keywords": "WiFi, arduino",
+    "description": "Arduino WiFi library wrapper for SmarTC Home automation system",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Cognitician/SmarTC_WiFi.git"
+    },
+    "authors": [
+        {
+            "name": "Clément TOCHE",
+            "email": "ad@toche.fr",
+            "maintainer": true
+        }
+    ],
+    "license": "GPL-3.0-only",
+    "export":{
+        "include":
+        [
+            "src/*",
+            "include/*"
+        ]
+    },
+    "frameworks":"Arduino",
+    "platforms":[
+        "Atmel AVR",
+        "Espressif 32",
+        "Espressif 8266"
+    ],
+    "dependencies":{ }
+}
